@@ -1,0 +1,3 @@
+func whatev(){
+    print("lolwat")
+}
