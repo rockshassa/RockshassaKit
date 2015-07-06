@@ -13,7 +13,6 @@
 
 /* Begin PBXFileReference section */
 		131E49FA55E9261FE6C8064B /* RockshassaKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RockshassaKit.podspec; path = ../RockshassaKit.podspec; sourceTree = "<group>"; };
-		23A8BB2D1B4A2303002BB631 /* make_images.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = make_images.py; sourceTree = "<group>"; };
 		533AF69286CB7F9A5E0C1EED /* Pods_RockshassaKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RockshassaKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = RockshassaKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,18 +43,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		23A8BB2C1B4A22DB002BB631 /* Scripts */ = {
-			isa = PBXGroup;
-			children = (
-				23A8BB2D1B4A2303002BB631 /* make_images.py */,
-			);
-			name = Scripts;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				23A8BB2C1B4A22DB002BB631 /* Scripts */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
