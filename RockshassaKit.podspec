@@ -10,18 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "RockshassaKit"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RockshassaKit."
+  s.summary          = "A collection of utility scripts that do work on your Xcode project."
   s.description      = <<-DESC
-                       An optional longer description of RockshassaKit
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A magical collection of utility scripts that do work on your Xcode project
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RockshassaKit"
+  s.homepage         = "https://bitbucket.org/rockshassa/rockshassakit.git"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Nicholas Galasso" => "nick@rockshassa.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/RockshassaKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://bitbucket.org/rockshassa/rockshassakit.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
